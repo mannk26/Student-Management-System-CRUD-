@@ -1,36 +1,26 @@
-# Employee Management CRUD System
+# Student CRUD Management System
 
-This is a simple **Employee Management CRUD System** developed using **Spring Boot** with **JPA** for the backend and **Swagger UI** for API documentation. The system allows users to create, read, update, and delete employee records in a MySQL database. This project is designed to manage basic employee details such as employee ID, name, salary, gender, department, and address.
+This project is a **Student CRUD (Create, Read, Update, Delete) Management System** built using **Spring Boot**. The system allows users to manage student records, including creating new student entries, retrieving, updating, and deleting student data. It uses a MySQL database for data storage and provides a RESTful API for interacting with the student records.
+
+This project is designed to provide a backend solution for managing student details in an educational institution or similar environments. It also includes **Swagger UI** integration for easy API testing and interaction.
 
 ## Features
 
-- **Create**: Add a new employee record to the database.
-- **Read**: Retrieve the details of all employees or a specific employee by their ID.
-- **Update**: Modify existing employee records, such as name and other details.
-- **Delete**: Remove an employee record from the database.
-- **Swagger UI**: Automatically generated API documentation for easy testing and exploration of the CRUD operations.
+- **Create Student**: Add new students with relevant details (name, age, department, etc.).
+- **Read Students**: View all students or search for individual students by their ID.
+- **Update Student**: Modify existing student records.
+- **Delete Student**: Remove students from the system.
+- **Swagger UI**: Interactive API documentation to view and test all available endpoints.
+- **Exception Handling**: Custom exception management for handling cases where students are not found.
 
 ## Technologies Used
 
-- **Spring Boot**: Framework for building the application.
-- **Spring Data JPA**: ORM to handle database operations.
-- **MySQL**: Database for storing employee records.
-- **Swagger UI**: API documentation tool for interacting with the API.
-- **Lombok**: Library for reducing boilerplate code such as getters, setters, and constructors.
+- **Spring Boot**: Framework used for creating the REST API.
+- **Spring Data JPA**: Java Persistence API for managing database interactions.
+- **MySQL**: Database used for storing student records.
+- **Swagger UI**: For testing and documenting the REST APIs.
+- **Lombok**: To reduce boilerplate code like getters, setters, and constructors.
 
-## Prerequisites
-
-Before running this project, ensure you have the following installed on your system:
-
-- **Java 11** (or above)
-- **Maven**
-- **MySQL** database (configured with the database for the project)
-- **Postman** (optional, for testing API)
-
-## Setup
-
-1. **Clone the repository** to your local machine:
-
-   ```bash
-   git clone https://github.com/your-username/employee-management-crud.git
+## Project Structure
+src ├── main │ ├── java │ │ ├── in │ │ │ ├── mrityunjay │ │ │ │ ├── controller # REST controller classes │ │ │ │ ├── entity # Entity classes (Student, etc.) │ │ │ │ ├── exception # Custom exception classes │ │ │ │ ├── repository # Repository interfaces for data access │ │ │ │ ├── service # Service interfaces and implementations │ │ │ │ └── StudentCrudApplication.java # Main entry point for the application │ └── resources │ ├── application.properties # Application configuration │ └── static # Optional static resources (e.g., for UI) └── pom.xml # Project dependencies and build configuration
 
