@@ -54,7 +54,8 @@ Before you start, ensure you have the following installed:
      spring.jpa.hibernate.ddl-auto=update
 
 4. **Run the Application:   Start the application using Maven**:
-     ```bash mvn spring-boot:run
+     ```bash
+        mvn spring-boot:run
 
 5. **Access Swagger UI**: Once the application is running, open your browser and navigate to:
 
