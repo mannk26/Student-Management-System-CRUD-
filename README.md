@@ -43,31 +43,38 @@ Before you start, ensure you have the following installed:
 2. **Configure the Database**:
 
     Set up a MySQL database (e.g., student_db).
-    Update the application.properties file with your database connection details.
+
+   Update the application.properties file with your database connection details.
+
     Example:
+   ```bash
      spring.datasource.url=jdbc:mysql://localhost:3306/student_db
      spring.datasource.username=root
      spring.datasource.password=root
      spring.jpa.hibernate.ddl-auto=update
 
-3. **Run the Application**:   Start the application using Maven:
-     mvn spring-boot:run
+4. **Run the Application:   Start the application using Maven**:
+     ```bash mvn spring-boot:run
 
-4. **Access Swagger UI**: Once the application is running, open your browser and navigate to:
+5. **Access Swagger UI**: Once the application is running, open your browser and navigate to:
 
    ```bash
    Copy code
    http://localhost:8080/swagger-ui.html
 
-5. **Test the Endpoints**: You can use Swagger UI to interact with the API. The following endpoints are available:
+6. **Test the Endpoints**: You can use Swagger UI to interact with the API. The following endpoints are available:
 
    POST /api/student/create: Create a new student.
+   
    GET /api/student/all: Retrieve all students.
+
    GET /api/student/find/{id}: Retrieve a student by ID.
+
    PUT /api/student/modify: Update an existing student.
+
    DELETE /api/student/remove/{id}: Delete a student by ID.
 
-6. **API Documentation (Swagger UI)**
+7. **API Documentation (Swagger UI)**
    Swagger UI is enabled in this project to help you easily explore and test the API.
    You can access it at the following URL when the application is running locally:
       ```bash
