@@ -21,6 +21,67 @@ This project is designed to provide a backend solution for managing student deta
 - **Swagger UI**: For testing and documenting the REST APIs.
 - **Lombok**: To reduce boilerplate code like getters, setters, and constructors.
 
-## Project Structure
-src ├── main │ ├── java │ │ ├── in │ │ │ ├── mrityunjay │ │ │ │ ├── controller # REST controller classes │ │ │ │ ├── entity # Entity classes (Student, etc.) │ │ │ │ ├── exception # Custom exception classes │ │ │ │ ├── repository # Repository interfaces for data access │ │ │ │ ├── service # Service interfaces and implementations │ │ │ │ └── StudentCrudApplication.java # Main entry point for the application │ └── resources │ ├── application.properties # Application configuration │ └── static # Optional static resources (e.g., for UI) └── pom.xml # Project dependencies and build configuration
+
+## Setup and Installation
+
+### Prerequisites
+
+Before you start, ensure you have the following installed:
+
+- **Java 11 or higher**
+- **Maven**
+- **MySQL** (or any other compatible relational database)
+
+### Steps to Setup
+
+1. **Clone the Repository**:
+   Clone the repository to your local machine.
+   ```bash
+   git clone https://github.com/yourusername/student-crud-management.git
+   cd student-crud-management
+   
+2. **Configure the Database**:
+
+    Set up a MySQL database (e.g., studentdb).
+    Update the application.properties file with your database connection details.
+    Example:
+     spring.datasource.url=jdbc:mysql://localhost:3306/studentdb
+     spring.datasource.username=root
+     spring.datasource.password=root
+     spring.jpa.hibernate.ddl-auto=update
+
+3. **Run the Application**:   Start the application using Maven:
+     mvn spring-boot:run
+
+4. Access Swagger UI: Once the application is running, open your browser and navigate to:
+
+bash
+Copy code
+http://localhost:8080/swagger-ui/ 
+
+5. Test the Endpoints: You can use Swagger UI to interact with the API. The following endpoints are available:
+
+POST /api/student/create: Create a new student.
+GET /api/student/all: Retrieve all students.
+GET /api/student/find/{id}: Retrieve a student by ID.
+PUT /api/student/modify: Update an existing student.
+DELETE /api/student/remove/{id}: Delete a student by ID.
+
+6. API Documentation (Swagger UI)
+Swagger UI is enabled in this project to help you easily explore and test the API.
+You can access it at the following URL when the application is running locally:
+bash
+Copy code
+http://localhost:8080/swagger-ui/
+
+7.Contributing
+Contributions are welcome! If you find any bugs or want to add new features, feel free to fork the repository and submit a pull request. Please make sure to follow these guidelines:
+
+Fork the repository and create a new branch.
+Write clear commit messages.
+Submit a pull request with a description of the changes.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 
