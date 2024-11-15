@@ -58,9 +58,8 @@ Before you start, ensure you have the following installed:
         mvn spring-boot:run
 
 5. **Access Swagger UI**: Once the application is running, open your browser and navigate to:
-
-   ```bash
    Copy code
+   ```bash
    http://localhost:8080/swagger-ui.html
 
 6. **Test the Endpoints**: You can use Swagger UI to interact with the API. The following endpoints are available:
@@ -78,8 +77,8 @@ Before you start, ensure you have the following installed:
 7. **API Documentation (Swagger UI)**
    Swagger UI is enabled in this project to help you easily explore and test the API.
    You can access it at the following URL when the application is running locally:
-      ```bash
-         Copy code
+   Copy code
+    ```bash
          http://localhost:8080/swagger-ui.html
 
 
