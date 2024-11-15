@@ -55,9 +55,9 @@ Before you start, ensure you have the following installed:
 
 4. **Access Swagger UI**: Once the application is running, open your browser and navigate to:
 
-bash
-Copy code
-http://localhost:8080/swagger-ui.html
+   ```bash
+   Copy code
+   http://localhost:8080/swagger-ui.html
 
 5. **Test the Endpoints**: You can use Swagger UI to interact with the API. The following endpoints are available:
 
@@ -70,9 +70,9 @@ http://localhost:8080/swagger-ui.html
 6. **API Documentation (Swagger UI)**
    Swagger UI is enabled in this project to help you easily explore and test the API.
    You can access it at the following URL when the application is running locally:
-   bash
-   Copy code
-   http://localhost:8080/swagger-ui.html
+      ```bash
+         Copy code
+         http://localhost:8080/swagger-ui.html
 
 ## Contributing
    Contributions are welcome! If you find any bugs or want to add new features, feel free to fork the repository and submit a pull request. Please make sure to follow these guidelines:
