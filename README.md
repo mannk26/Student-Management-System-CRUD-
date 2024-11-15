@@ -37,15 +37,15 @@ Before you start, ensure you have the following installed:
 1. **Clone the Repository**:
    Clone the repository to your local machine.
    ```bash
-   git clone https://github.com/yourusername/student-crud-management.git
+   git clone https://github.com/mannk26/Student-Management-System-CRUD-.git
    cd student-crud-management
    
 2. **Configure the Database**:
 
-    Set up a MySQL database (e.g., studentdb).
+    Set up a MySQL database (e.g., student_db).
     Update the application.properties file with your database connection details.
     Example:
-     spring.datasource.url=jdbc:mysql://localhost:3306/studentdb
+     spring.datasource.url=jdbc:mysql://localhost:3306/student_db
      spring.datasource.username=root
      spring.datasource.password=root
      spring.jpa.hibernate.ddl-auto=update
@@ -57,7 +57,7 @@ Before you start, ensure you have the following installed:
 
 bash
 Copy code
-http://localhost:8080/swagger-ui/ 
+http://localhost:8080/swagger-ui.html
 
 5. **Test the Endpoints**: You can use Swagger UI to interact with the API. The following endpoints are available:
 
@@ -72,10 +72,10 @@ http://localhost:8080/swagger-ui/
    You can access it at the following URL when the application is running locally:
    bash
    Copy code
-   http://localhost:8080/swagger-ui/
+   http://localhost:8080/swagger-ui.html
 
 ###Contributing
-   Contributions are welcome! If you find any bugs or want to add new features, feel free to fork the repository and submit a pull request. Please make sure     to follow these guidelines:
+   Contributions are welcome! If you find any bugs or want to add new features, feel free to fork the repository and submit a pull request. Please make sure to follow these guidelines:
    Fork the repository and create a new branch.
    Write clear commit messages.
    Submit a pull request with a description of the changes.
