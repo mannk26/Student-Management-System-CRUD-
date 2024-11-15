@@ -53,35 +53,34 @@ Before you start, ensure you have the following installed:
 3. **Run the Application**:   Start the application using Maven:
      mvn spring-boot:run
 
-4. Access Swagger UI: Once the application is running, open your browser and navigate to:
+4. **Access Swagger UI**: Once the application is running, open your browser and navigate to:
 
 bash
 Copy code
 http://localhost:8080/swagger-ui/ 
 
-5. Test the Endpoints: You can use Swagger UI to interact with the API. The following endpoints are available:
+5. **Test the Endpoints**: You can use Swagger UI to interact with the API. The following endpoints are available:
 
-POST /api/student/create: Create a new student.
-GET /api/student/all: Retrieve all students.
-GET /api/student/find/{id}: Retrieve a student by ID.
-PUT /api/student/modify: Update an existing student.
-DELETE /api/student/remove/{id}: Delete a student by ID.
+   POST /api/student/create: Create a new student.
+   GET /api/student/all: Retrieve all students.
+   GET /api/student/find/{id}: Retrieve a student by ID.
+   PUT /api/student/modify: Update an existing student.
+   DELETE /api/student/remove/{id}: Delete a student by ID.
 
-6. API Documentation (Swagger UI)
-Swagger UI is enabled in this project to help you easily explore and test the API.
-You can access it at the following URL when the application is running locally:
-bash
-Copy code
-http://localhost:8080/swagger-ui/
+6. **API Documentation (Swagger UI)**
+   Swagger UI is enabled in this project to help you easily explore and test the API.
+   You can access it at the following URL when the application is running locally:
+   bash
+   Copy code
+   http://localhost:8080/swagger-ui/
 
-7.Contributing
-Contributions are welcome! If you find any bugs or want to add new features, feel free to fork the repository and submit a pull request. Please make sure to follow these guidelines:
+###Contributing
+   Contributions are welcome! If you find any bugs or want to add new features, feel free to fork the repository and submit a pull request. Please make sure     to follow these guidelines:
+   Fork the repository and create a new branch.
+   Write clear commit messages.
+   Submit a pull request with a description of the changes.
 
-Fork the repository and create a new branch.
-Write clear commit messages.
-Submit a pull request with a description of the changes.
-
-License
+**License**
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
