@@ -85,10 +85,17 @@ Before you start, ensure you have the following installed:
 ## Contributing
    Contributions are welcome! If you find any bugs or want to add new features, feel free to fork the repository and submit a pull request. Please make sure to follow these guidelines:
    Fork the repository and create a new branch.
-   Write clear commit messages.
+   Write clear commit messages.![Screenshot 2025-02-24 204749](https://github.com/user-attachments/assets/c8f4293d-9ffa-4439-8cf3-3614aa06e2df)
+
    Submit a pull request with a description of the changes.
 
 **License**
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+**Some Glimpses**
+![Uploading Screenshot 2025-02-24 204749.png…]()
+![Screenshot 2025-02-24 204814](https://github.com/user-attachments/assets/991022e0-ca9c-410b-b7a2-84a0b6c2c58d)
+![Screenshot 2025-02-24 204925](https://github.com/user-attachments/assets/a2661455-4435-4f5b-b481-4715e3bdc4b8)
 
 
