@@ -1,0 +1,132 @@
+/* Global Styles */
+body {
+    background-color: #f3f4f6;
+    color: #2c3e50;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Navbar Styling */
+.navbar {
+    background: linear-gradient(135deg, #495057, #343a40);
+    padding: 1rem 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.8rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-brand:hover {
+    color: #ffd700;
+}
+
+/* Buttons */
+.btn {
+    font-weight: 600;
+    border-radius: 0.4rem;
+    padding: 0.5rem 1.2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-light {
+    background-color: #ffffff;
+    border: 1px solid #6c757d;
+    color: #495057;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-light:hover {
+    background-color: #ececec;
+    color: #212529;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #bd2130;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #a71d2a;
+    border-color: #8b1b22;
+}
+
+/* Table Styling */
+.table {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.table th, 
+.table td {
+    vertical-align: middle;
+    padding: 1.2rem;
+    text-align: center;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.table th {
+    background-color: #495057;
+    color: white;
+    font-weight: 600;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Responsive Table */
+.table-responsive {
+    margin: auto;
+    max-width: 90%;
+}
+
+/* Modal Styling */
+.modal-header {
+    background-color: #495057;
+    color: white;
+    border-bottom: none;
+}
+
+.modal-title {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.modal-content {
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.modal-content:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+}
+
+/* Additional Layout Tweaks */
+.container {
+    max-width: 1100px;
+}
+
+.btn-close {
+    outline: none;
+}
