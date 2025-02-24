@@ -93,9 +93,10 @@ Before you start, ensure you have the following installed:
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
-**Some Glimpses**
-![Uploading Screenshot 2025-02-24 204749.png…]()
-![Screenshot 2025-02-24 204814](https://github.com/user-attachments/assets/991022e0-ca9c-410b-b7a2-84a0b6c2c58d)
-![Screenshot 2025-02-24 204925](https://github.com/user-attachments/assets/a2661455-4435-4f5b-b481-4715e3bdc4b8)
+## A Peek into the Application
+![Screenshot 2025-02-24 204749](https://github.com/user-attachments/assets/a8524389-caa4-464a-b626-1c1b4ca48d63)
+![Screenshot 2025-02-24 204814](https://github.com/user-attachments/assets/b13c4772-f21b-4d93-8aed-b032cf2b984c)
+![Screenshot 2025-02-24 204925](https://github.com/user-attachments/assets/b175ce23-45fd-4d8b-ab10-dafe2c7c1b47)
+
 
 
