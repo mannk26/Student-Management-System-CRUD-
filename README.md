@@ -85,7 +85,7 @@ Before you start, ensure you have the following installed:
 ## Contributing
    Contributions are welcome! If you find any bugs or want to add new features, feel free to fork the repository and submit a pull request. Please make sure to follow these guidelines:
    Fork the repository and create a new branch.
-   Write clear commit messages.![Screenshot 2025-02-24 204749](https://github.com/user-attachments/assets/c8f4293d-9ffa-4439-8cf3-3614aa06e2df)
+   Write clear commit messages.!
 
    Submit a pull request with a description of the changes.
 
